@@ -4,7 +4,7 @@ Created: 2026-06-04
 
 ## Checks
 
-- Included non-manifest files checked: 88
+- Included non-manifest files checked: 81
 - Sanitized label rows: 5000
 - Sanitized split rows: 5000
 - Split counts: {'dev': 750, 'test': 751, 'train': 3499}

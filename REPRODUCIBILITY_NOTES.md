@@ -34,7 +34,6 @@ python scripts\run_expanded_8800_reference_classical_baselines.py
 python scripts\run_expanded_8800_reference_multilabel_baseline.py
 python scripts\run_hf_qwen_structured_baseline.py --workers 4 --output-dir outputs\baselines\hf_qwen_structured_test_2026-06-04
 python scripts\build_expanded_8800_result_tables.py
-python scripts\build_release_candidate.py
 ```
 
 The supervised MiniLM run is CPU-compatible but slow in the observed environment because installed PyTorch is CPU-only.

@@ -154,7 +154,7 @@ Key files:
 
 QA result:
 
-- manifest rows: 90.
+- manifest rows: 83.
 - sanitized labels: 5,000 rows.
 - sanitized splits: 5,000 rows, with 3,499 train / 750 dev / 751 test.
 - sanitized expanded labels: 8,800 rows.
