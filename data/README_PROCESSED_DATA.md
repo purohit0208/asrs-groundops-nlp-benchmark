@@ -163,4 +163,4 @@ QA result:
 - raw ASRS JSON, downloaded PDFs, and Consensus reports copied: none.
 - all manifest hashes validated.
 
-This is an internal release candidate, not a public upload package.
+The public sanitized repository is https://github.com/purohit0208/asrs-groundops-nlp-benchmark. It contains the sanitized labels, split assignments, protocols, scripts, metrics, prediction files without raw text, and QA artifacts. It excludes raw ASRS narratives, raw ASRS JSON, downloaded papers, Consensus reports, manuscript DOCX files, and internal project-history documents.
