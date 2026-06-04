@@ -1,0 +1,17 @@
+task,model,split,n,accuracy,macro_f1,weighted_f1,micro_f1
+screening_status,majority,dev,750,0.841333,0.304610,0.768836,0.841333
+screening_status,majority,test,751,0.840213,0.304390,0.767257,0.840213
+screening_status,tfidf_word12_logreg_balanced,dev,750,0.870667,0.711385,0.864386,0.870667
+screening_status,tfidf_word12_logreg_balanced,test,751,0.878828,0.502534,0.871745,0.878828
+screening_status,tfidf_char35_logreg_balanced,dev,750,0.873333,0.736205,0.875611,0.873333
+screening_status,tfidf_char35_logreg_balanced,test,751,0.872170,0.505238,0.869609,0.872170
+screening_status,rule_reproduction_check_not_independent,dev,750,1.000000,1.000000,1.000000,1.000000
+screening_status,rule_reproduction_check_not_independent,test,751,1.000000,1.000000,1.000000,1.000000
+primary_event_type,majority,dev,750,0.156000,0.022491,0.042104,0.156000
+primary_event_type,majority,test,751,0.157124,0.022631,0.042671,0.157124
+primary_event_type,tfidf_word12_logreg_balanced,dev,750,0.564000,0.484147,0.556590,0.564000
+primary_event_type,tfidf_word12_logreg_balanced,test,751,0.533955,0.463305,0.521191,0.533955
+primary_event_type,tfidf_char35_logreg_balanced,dev,750,0.581333,0.518996,0.583246,0.581333
+primary_event_type,tfidf_char35_logreg_balanced,test,751,0.535286,0.472302,0.532551,0.535286
+primary_event_type,rule_reproduction_check_not_independent,dev,750,1.000000,1.000000,1.000000,1.000000
+primary_event_type,rule_reproduction_check_not_independent,test,751,1.000000,1.000000,1.000000,1.000000

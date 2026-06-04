@@ -1,0 +1,2 @@
+task,model,split,n,label_count,micro_f1,micro_f1_ci,macro_f1,macro_f1_ci,samples_f1,samples_f1_ci,subset_accuracy,subset_accuracy_ci,samples_jaccard,samples_jaccard_ci,hamming_loss,hamming_loss_ci
+record_level_event_multilabel_relevant_only,tfidf_word13_char36_ovr_linear_svc_multilabel,test,631,11,0.609258,"0.609 [0.586, 0.633]",0.554028,"0.554 [0.520, 0.585]",0.595244,"0.595 [0.569, 0.624]",0.297940,"0.298 [0.265, 0.333]",0.517270,"0.517 [0.490, 0.546]",0.113096,"0.113 [0.105, 0.121]"

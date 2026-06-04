@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the associated manuscript when available."
+title: "ASRS-GroundOps: A Reproducible Aviation Narrative Benchmark for Ground-Operation Event Classification and Multi-Label Tagging"
+authors:
+  - family-names: "Purohit"
+    given-names: "Parth"
+date-released: "2026-06-04"
+version: "0.1.0"
+repository-code: "https://github.com/purohit0208/asrs-groundops-nlp-benchmark"

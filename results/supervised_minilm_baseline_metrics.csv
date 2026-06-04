@@ -1,0 +1,5 @@
+task,model,split,epoch,n,accuracy,macro_f1,weighted_f1,micro_f1
+screening_status,supervised_minilm_l6v2_local_finetune,dev,best_dev_epoch_2,750,0.881333,0.536955,0.886755,0.881333
+screening_status,supervised_minilm_l6v2_local_finetune,test,best_dev_epoch_2,751,0.888149,0.536756,0.890488,0.888149
+primary_event_type,supervised_minilm_l6v2_local_finetune,dev,best_dev_epoch_2,750,0.545333,0.446321,0.503411,0.545333
+primary_event_type,supervised_minilm_l6v2_local_finetune,test,best_dev_epoch_2,751,0.505992,0.408335,0.462481,0.505992

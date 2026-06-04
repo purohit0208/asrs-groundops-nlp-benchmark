@@ -1,0 +1,5 @@
+task,model,split,n,accuracy,macro_f1,weighted_f1,micro_f1
+screening_status,sbert_all_minilm_l6v2_logreg_balanced,dev,750,0.789333,0.552780,0.813571,0.789333
+screening_status,sbert_all_minilm_l6v2_logreg_balanced,test,751,0.786951,0.470314,0.811418,0.786951
+primary_event_type,sbert_all_minilm_l6v2_logreg_balanced,dev,750,0.524000,0.463724,0.539763,0.524000
+primary_event_type,sbert_all_minilm_l6v2_logreg_balanced,test,751,0.492676,0.436172,0.506805,0.492676

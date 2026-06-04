@@ -1,0 +1,17 @@
+task,model,split,n,accuracy,macro_f1,weighted_f1,micro_f1
+screening_status,tfidf_word13_linear_svc_balanced,dev,750,0.881333,0.733489,0.878545,0.881333
+screening_status,tfidf_word13_linear_svc_balanced,test,751,0.884154,0.512316,0.878332,0.884154
+screening_status,tfidf_char36_linear_svc_balanced,dev,750,0.877333,0.737594,0.878185,0.877333
+screening_status,tfidf_char36_linear_svc_balanced,test,751,0.880160,0.514427,0.877244,0.880160
+screening_status,tfidf_word13_char36_linear_svc_balanced,dev,750,0.890667,0.743111,0.886983,0.890667
+screening_status,tfidf_word13_char36_linear_svc_balanced,test,751,0.881491,0.508696,0.875563,0.881491
+screening_status,tfidf_word13_char36_calibrated_svc_balanced,dev,750,0.889333,0.514801,0.882199,0.889333
+screening_status,tfidf_word13_char36_calibrated_svc_balanced,test,751,0.880160,0.505010,0.873405,0.880160
+primary_event_type,tfidf_word13_linear_svc_balanced,dev,750,0.590667,0.490404,0.579137,0.590667
+primary_event_type,tfidf_word13_linear_svc_balanced,test,751,0.575233,0.492634,0.566233,0.575233
+primary_event_type,tfidf_char36_linear_svc_balanced,dev,750,0.586667,0.500920,0.582995,0.586667
+primary_event_type,tfidf_char36_linear_svc_balanced,test,751,0.556591,0.492938,0.553064,0.556591
+primary_event_type,tfidf_word13_char36_linear_svc_balanced,dev,750,0.596000,0.507544,0.588923,0.596000
+primary_event_type,tfidf_word13_char36_linear_svc_balanced,test,751,0.565912,0.498839,0.558969,0.565912
+primary_event_type,tfidf_word13_char36_calibrated_svc_balanced,dev,750,0.598667,0.513545,0.590353,0.598667
+primary_event_type,tfidf_word13_char36_calibrated_svc_balanced,test,751,0.571238,0.496402,0.563523,0.571238

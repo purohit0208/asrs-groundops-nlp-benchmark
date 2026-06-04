@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+data/raw/
+literature/papers/
+literature/consensus_reports/
+outputs/raw/
