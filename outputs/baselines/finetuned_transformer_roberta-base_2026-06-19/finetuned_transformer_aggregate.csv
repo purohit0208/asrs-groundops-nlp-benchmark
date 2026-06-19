@@ -1,0 +1,5 @@
+task,model,split,n_seeds,n,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,micro_f1_mean,micro_f1_std,weighted_f1_mean,weighted_f1_std
+screening_status,finetuned_roberta_base,dev,3,750,0.947556,0.001257,0.603244,0.001750,0.947556,0.001257,0.946314,0.001271
+screening_status,finetuned_roberta_base,test,3,751,0.948513,0.003818,0.605746,0.005132,0.948513,0.003818,0.947638,0.003940
+primary_event_type,finetuned_roberta_base,dev,3,750,0.773778,0.003143,0.729988,0.005414,0.773778,0.003143,0.776525,0.003384
+primary_event_type,finetuned_roberta_base,test,3,751,0.778961,0.008698,0.745246,0.007516,0.778961,0.008698,0.783327,0.008560

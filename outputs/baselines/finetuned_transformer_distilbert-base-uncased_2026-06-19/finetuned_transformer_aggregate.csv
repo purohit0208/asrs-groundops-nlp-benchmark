@@ -1,0 +1,5 @@
+task,model,split,n_seeds,n,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,micro_f1_mean,micro_f1_std,weighted_f1_mean,weighted_f1_std
+screening_status,finetuned_distilbert_base_uncased,dev,3,750,0.951111,0.003500,0.606897,0.004821,0.951111,0.003500,0.949535,0.003650
+screening_status,finetuned_distilbert_base_uncased,test,3,751,0.945850,0.000628,0.600575,0.000413,0.945850,0.000628,0.944264,0.000466
+primary_event_type,finetuned_distilbert_base_uncased,dev,3,750,0.752445,0.010461,0.708296,0.010563,0.752445,0.010461,0.755349,0.010401
+primary_event_type,finetuned_distilbert_base_uncased,test,3,751,0.744785,0.009745,0.711872,0.012113,0.744785,0.009745,0.751194,0.008554

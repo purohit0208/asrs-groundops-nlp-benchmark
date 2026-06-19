@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-19",
+  "model": "distilbert-base-uncased",
+  "model_label": "finetuned_distilbert_base_uncased",
+  "split_set": "expanded8800",
+  "split_files": {
+    "train": "D:\\Rejected_Papers\\ASRS_GroundOps_NLP_Benchmark\\data\\splits\\expanded_8800_reference_eval_train_records_2026-06-04.csv",
+    "dev": "D:\\Rejected_Papers\\ASRS_GroundOps_NLP_Benchmark\\data\\splits\\expanded_8800_reference_eval_dev_records_2026-06-04.csv",
+    "test": "D:\\Rejected_Papers\\ASRS_GroundOps_NLP_Benchmark\\data\\splits\\expanded_8800_reference_eval_test_records_2026-06-04.csv"
+  },
+  "seeds": [
+    20260619,
+    20260620,
+    20260621
+  ],
+  "epochs": 4,
+  "batch_size": 16,
+  "max_length": 320,
+  "learning_rate": 2e-05,
+  "warmup_ratio": 0.06,
+  "fp16": true,
+  "device": "cuda",
+  "tasks": {
+    "screening_status": "silver_screening_status",
+    "primary_event_type": "silver_primary_event_type"
+  },
+  "bootstrap_samples": 1000,
+  "boundary": "Raw ASRS text loaded locally and never written to outputs. Only public model weights are downloaded.",
+  "smoke_test": false
+}
