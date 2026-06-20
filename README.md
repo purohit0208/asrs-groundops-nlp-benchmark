@@ -28,6 +28,8 @@ focused on ground-operation and cabin-service event classification.
 A blind author re-annotation of a stratified test sample (n = 98) gives: screening
 Cohen's kappa = 0.40; event-type kappa = 0.36 on the 12-class scheme (low), rising to
 kappa = 0.47 on the coarse 6-class scheme and kappa = 0.55 conditioned on agreed relevance.
+A second, disjoint sample (n = 97) confirms the coarse taxonomy out-of-sample (kappa = 0.43; 0.66 given agreed
+relevance); out-of-sample screening kappa is 0.27, identifying the relevance boundary as the main reliability limit.
 This is reported transparently as author self-consistency, NOT independent inter-annotator
 agreement. See `docs/RELIABILITY_AND_COARSE_TAXONOMY_2026-06-19.md`.
 
