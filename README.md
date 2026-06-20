@@ -17,11 +17,12 @@ focused on ground-operation and cabin-service event classification.
 |---|---|---|
 | TF-IDF + LinearSVC | 0.513 | 0.640* |
 | Supervised MiniLM | 0.537 | - |
-| Qwen2.5-7B (zero-shot) | 0.436 | - |
+| Qwen2.5-7B (zero-shot) | 0.436 | 0.394** |
+| Qwen2.5-72B (zero-shot) | 0.446 | 0.388** |
 | DistilBERT (fine-tuned, 3 seeds) | 0.604 +/- 0.005 | 0.791 +/- 0.010 |
 | RoBERTa-base (fine-tuned, 3 seeds) | 0.605 +/- 0.009 | 0.807 +/- 0.007 |
 
-*Best fine-grained TF-IDF model, predictions remapped to the coarse classes.
+*Best fine-grained TF-IDF model, predictions remapped to the coarse classes. **Zero-shot LLM coarse event-type = 12-class predictions remapped to coarse, over schema-valid rows (7B n=741, 72B n=738); a 10x larger LLM does not close the gap to fine-tuning.
 
 ## Measured label reliability (test-retest, intra-annotator)
 A blind author re-annotation of a stratified test sample (n = 98) gives: screening
